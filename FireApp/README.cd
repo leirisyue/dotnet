@@ -1,0 +1,9 @@
+create app
+```
+dotnet new webapi -n "FireApp"
+```
+add package Hangfire
+```
+dotnet add package Hangfire
+dotnet add package Hangfire.Core
+dotnet add package Hangfire.Storage.SQLite
